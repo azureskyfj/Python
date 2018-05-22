@@ -134,5 +134,5 @@ class Application(Frame):
         self.pack()
 
 app = Application()
-app.master.title('XSD-YS')
+app.master.title('XSD_YS')
 app.mainloop()
