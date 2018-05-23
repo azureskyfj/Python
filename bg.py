@@ -1,6 +1,5 @@
-import win32com, os, sys, shutil, glob
+import  os, sys, shutil, glob
 from tkinter import messagebox, Frame, Label, StringVar, Entry, Button
-from win32com.client import Dispatch
 
 class Application(Frame):
     def createWidgets(self):
